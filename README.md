@@ -26,10 +26,3 @@
 
 <h3>AUTORES</h3>
 
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/159580121?v=4&size=64" width=115><br><sub>Felipe Santos</sub>](https://github.com/felipesantos71) |  
-| :---: |
-
----
-
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/159580121?v=4&size=64" width=115><br><sub>Igor Miranda</sub>](https://github.com/IgorMiranda56) |
-| :---: |
