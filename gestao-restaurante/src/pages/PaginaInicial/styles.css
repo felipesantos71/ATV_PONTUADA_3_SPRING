@@ -1,0 +1,48 @@
+/* src\pages\PaginaInicial\styles.css */
+
+body {
+    background: url('../../assets/images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 15px;
+  }
+
+h1 {
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.link-cadastro {
+    background-color: #038a0e;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid #000000; 
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.link-cadastro:hover {
+    background-color: #004406;
+}
+
+
+.link-lista {
+    background-color: #038a0e;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid #000000; 
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.link-lista:hover {
+    background-color: #004406;
+}

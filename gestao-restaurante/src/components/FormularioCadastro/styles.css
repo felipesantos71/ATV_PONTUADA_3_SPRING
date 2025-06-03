@@ -1,0 +1,87 @@
+/* src\components\FormularioCadastro\styles.css */
+
+.container {
+    background: rgb(255, 237, 237);
+    padding: 40px 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+  
+.container img {
+    width: 200px;
+    margin-bottom: 5px;
+}
+.container img {
+    width: 150%;
+    height: auto;
+}
+  
+h2 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #a72828;
+}
+  
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+}
+  
+input,
+button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+  
+input {
+    border: 1px solid #bb2e2e;
+}
+  
+button {
+    background-color: #ff5454;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid #000000; 
+    margin-top: 10px;
+    transition: 0.3s;
+}
+  
+button:hover {
+    background-color: #bb2a2a;
+}
+  
+.link-pratos {
+    margin-top: 25px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+}
+  
+.link-pratos:hover {
+    text-decoration: none;
+}
+
+.link-home {
+    margin-top: 25px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+}
+
+.link-home:hover {
+    text-decoration: none;
+}
