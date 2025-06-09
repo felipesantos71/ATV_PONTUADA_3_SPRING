@@ -1,0 +1,15 @@
+/* src\components\ListaCardapio\styles.css */
+
+.lista-cardapio {
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: black;
+    background-color: gray;
+  }
+  
+  .lista-cardapio li strong {
+    font-weight: bold;
+  }
