@@ -10,7 +10,7 @@ function ListaCardapio() {
     useEffect(() => {
         const carregarPratos = async () => {
             try {
-                const response = await axios.get('http://localhost:8080/pratos');
+                const response = await axios.get('https://backend-garrafinha.onrender.com');
                 setPratos(response.data);
             } catch (error) {
                 console.error('Erro ao carregar os pratos:', error);
