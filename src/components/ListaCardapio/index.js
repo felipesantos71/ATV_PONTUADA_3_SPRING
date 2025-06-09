@@ -13,7 +13,7 @@ function ListaCardapio() {
                 const response = await axios.get('https://backend-garrafinha.onrender.com/pratos');
                 setPratos(response.data);
             } catch (error) {
-                console.error('Erro ao carregar os pratos:', error);
+                alert('Erro ao carregar os pratos:', error);
                 setPratos([]);
             }
         };
