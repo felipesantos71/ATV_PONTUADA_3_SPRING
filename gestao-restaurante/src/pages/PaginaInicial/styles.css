@@ -1,0 +1,62 @@
+/* src\pages\PaginaInicial\styles.css */
+
+body {
+    /* background: url('../../assets/images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 15px;
+  }
+
+h1 {
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagina-inicial {
+    background-color: lightgray;
+    padding: 32px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+    max-height: 80vh;
+    overflow-y: auto;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.link-cadastro {
+    background-color: #BF0404;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid #000000; 
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.link-cadastro:hover {
+    background-color: #A60311;
+}
+
+
+.link-lista {
+    background-color: #BF0404;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid #000000; 
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.link-lista:hover {
+    background-color: #A60311;
+}

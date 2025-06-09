@@ -1,0 +1,17 @@
+/* src\pages\CadastroPrato\styles.css */
+
+.pagina-cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 15px;
+    background-color: rgb(53, 124, 43);
+  }
+
+  body {
+    background: url('../../assets/images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
