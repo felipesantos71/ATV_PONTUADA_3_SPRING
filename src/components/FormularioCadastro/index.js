@@ -21,7 +21,7 @@ function FormularioCadastro() {
 
     const cadastroPrato = async (e) => {
         try {
-            const response = await axios.post('https://backend-garrafinha.onrender.com', {nomePrato, 
+            const response = await axios.post('https://backend-garrafinha.onrender.com/pratos', {nomePrato, 
                 descricao, preco, categoria, disponibilidade, imagemUrl});
             exibirMensagem(response.data.mensagem || 'Prato cadastrado com sucesso!', 'sucesso');
             setNomePrato('');
