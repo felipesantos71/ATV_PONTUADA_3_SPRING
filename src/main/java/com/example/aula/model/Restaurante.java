@@ -15,7 +15,6 @@ public class Restaurante {
 
     private String descricao;
 
-    @NotBlank(message = "Preço é obrigatória.")
     private Double preco;
 
     private String categoria;
@@ -61,11 +60,11 @@ public class Restaurante {
         this.descricao = descricao;
     }
 
-    public @NotBlank(message = "Preço é obrigatória.") Double getPreco() {
+    public Double getPreco() {
         return preco;
     }
 
-    public void setPreco(@NotBlank(message = "Preço é obrigatória.") Double preco) {
+    public void setPreco (Double preco) {
         this.preco = preco;
     }
 
