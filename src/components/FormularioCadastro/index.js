@@ -36,7 +36,7 @@ function FormularioCadastro() {
             if (error.response && error.response.data) {
                 erroMsg = error.response.data.mensagem
                 if (error.response.data.erros) {
-                    erroMsg += ': ' + error.response.data.erros.join(', ');
+                    erroMsg += " " + Object.values(error.response.data.erros).join(", ");
                 }
             }
             exibirMensagem(erroMsg, 'erro');
